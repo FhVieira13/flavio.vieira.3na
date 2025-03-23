@@ -22,3 +22,6 @@ mod tests {
         assert_eq!(product, 24);
     }
 } 
+//O loop for i in 1..len começa em i = 1. 
+// Isso significa que o primeiro elemento do array (índice 0) é ignorado no cálculo do produto.
+//  Este é um erro lógico que fará com que a função retorne um resultado incorreto. 
