@@ -3,8 +3,6 @@ reverse_string/
 └── src/
     └── lib.rs
 
-   // src/lib.rs
-
 pub unsafe fn multiply_array(ptr: *const i32, len: usize) -> i32 {
     let mut product = 1;
     for i in 0..len {
